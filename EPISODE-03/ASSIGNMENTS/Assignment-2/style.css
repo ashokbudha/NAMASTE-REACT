@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#root{
+    /* border:2px solid black; */
+}
+
+#header{
+    display: flex;
+    height:10vh;
+width:100%;
+justify-content: space-around;
+align-items:center;
+}
+
+#logo{
+ height:100px;
+ width:100px;
+ 
+}
+
+#searchBar{
+width:50vw;
+height:30px;
+text-align: center;
+}
+
+#user-icon{
+height: 50px;
+width:50px;
+}
