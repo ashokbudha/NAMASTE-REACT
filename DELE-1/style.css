@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* #root{
+
+} */
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding:0px 50px;
+ background-color: #F5F5F5;
+}
+
+.logo{
+height: 100px;
+width:auto;
+}
+
+.logo img{
+height:100%;
+width:100%;
+}
+
+
+/* .navbar{
+
+} */
+
+.navbar ul {
+list-style: none;
+display: flex;
+gap:40px;
+align-items: center;
+}
+
+.navbar ul li{
+font-size: 30px;
+}
+
+.searchbar{
+    display:flex;
+    justify-content: center;
+    margin:50px 0px;
+    gap:10px;
+    align-items: center;
+}
+
+.searchbar input{
+    width:350px;
+    height:35px;
+    font-size: 18px;
+    padding:0px 5px;
+}
+
+
+.searchbar .search-btn{
+    height:35px;
+    padding:0px 20px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+.searchbar .refresh{
+    height:35px;
+    padding:0px 20px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.body .filter-btn{
+    height:35px;
+    padding:0px 20px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+.res-container{
+    /* border:2px solid black; */
+    padding-top:50px;
+    width:80vw;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+
+.res-card{
+    width:300px;
+    border:2px solid white;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #F5F5F5;
+}
+.res-card:hover{
+    border:2px solid rgb(0, 0, 0);
+    
+}
+.res-card h3, .res-card h4 {
+    margin: 0px 6px;
+    text-align: center;
+}
+
+
+
+.res-card img{
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.footer{
+    margin-top:40px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+
+}
+.footer p{
+    font-size: 20px;
+}
