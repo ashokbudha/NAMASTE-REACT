@@ -5,11 +5,16 @@ import Counter from "./components/Counter";
 
 
 class App extends React.Component{
-    conponent(props){
+    constructor(props){
         super(props);
+        console.log("inside parent constructor");
+    }
+    componentDidMount(){
+        console.log("inside parent componentDidMount");
     }
 
     render(){
+        console.log("inside parent render");
         return(
             <>
             <h1>This is the app Component.</h1>

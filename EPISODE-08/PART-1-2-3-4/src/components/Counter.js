@@ -6,9 +6,16 @@ class Counter extends Component{
         this.state={
             count : 0,
         }
+        console.log("inside second child constructor");
+    }
+
+    componentDidMount(){
+        console.log("inside second child componentDidMount");
     }
 
     render(){
+        console.log("inside second child render")
+
     const {count} = this.state;
 
     const handleClick = () =>{
